@@ -1,0 +1,86 @@
+{
+  "projectOrder": [
+    "6d3d2b4d-8c65-4846-8b39-fd78d356bec5"
+  ],
+  "projects": {
+    "6d3d2b4d-8c65-4846-8b39-fd78d356bec5": {
+      "id": "6d3d2b4d-8c65-4846-8b39-fd78d356bec5",
+      "name": "traffic-light-react-migration",
+      "description": "React 重建 traffic-light 子应用（tools-hub），实现与旧版 triffic-light 功能/UI/接口等价，并完成规划-开发-测试-交付文档。",
+      "createdAt": "2025-12-09T09:43:32.036Z",
+      "updatedAt": "2025-12-09T09:43:32.036Z"
+    }
+  },
+  "projectTodos": {
+    "6d3d2b4d-8c65-4846-8b39-fd78d356bec5": [
+      "3e8b6cbe-91b9-4ddf-8025-f4ce82464b95",
+      "f3214cc1-d5d3-4ef5-a727-d66a992763f2",
+      "83bcef27-1675-4f93-907b-67f9ee781343",
+      "9247618a-b491-48e7-b611-e8124a50e998",
+      "2ad1e0f9-c6e2-4073-bb45-f4d52043de2c",
+      "a49186e9-c3fb-4e68-b021-55154d8a9c3b"
+    ]
+  },
+  "todos": {
+    "3e8b6cbe-91b9-4ddf-8025-f4ce82464b95": {
+      "id": "3e8b6cbe-91b9-4ddf-8025-f4ce82464b95",
+      "projectId": "6d3d2b4d-8c65-4846-8b39-fd78d356bec5",
+      "title": "规划与基线对齐",
+      "description": "确认新基座依赖/UI 套件（Antd React 暗色 + Tailwind + React-Konva），路由注册方案，运行模式（execute/view），并记录决策于 plan/progress 文档。",
+      "status": "completed",
+      "priority": "high",
+      "createdAt": "2025-12-09T09:43:50.938Z",
+      "updatedAt": "2025-12-09T09:54:53.895Z"
+    },
+    "f3214cc1-d5d3-4ef5-a727-d66a992763f2": {
+      "id": "f3214cc1-d5d3-4ef5-a727-d66a992763f2",
+      "projectId": "6d3d2b4d-8c65-4846-8b39-fd78d356bec5",
+      "title": "鉴权与 API 层",
+      "description": "实现 token 桥（Wujie/postMessage）、axios 实例、任务包文件获取、保存/回显接口、视角 JSON 获取；与旧版接口对齐。",
+      "status": "pending",
+      "priority": "high",
+      "createdAt": "2025-12-09T09:44:02.398Z",
+      "updatedAt": "2025-12-09T09:44:02.398Z"
+    },
+    "83bcef27-1675-4f93-907b-67f9ee781343": {
+      "id": "83bcef27-1675-4f93-907b-67f9ee781343",
+      "projectId": "6d3d2b4d-8c65-4846-8b39-fd78d356bec5",
+      "title": "编辑器核心与数据流",
+      "description": "移植 Editor/LoadManager/DataManager、停止线解析与信号矩阵同步、视角切换加载、保存负载构建。",
+      "status": "pending",
+      "priority": "high",
+      "createdAt": "2025-12-09T09:44:11.615Z",
+      "updatedAt": "2025-12-09T09:44:11.615Z"
+    },
+    "9247618a-b491-48e7-b611-e8124a50e998": {
+      "id": "9247618a-b491-48e7-b611-e8124a50e998",
+      "projectId": "6d3d2b4d-8c65-4846-8b39-fd78d356bec5",
+      "title": "UI 布局与交互",
+      "description": "实现 Header/Tool/Main/Operation/FrameTimeline/Modal/Mask/Loading/StopLineInspector，恢复暗色主题与响应式布局。",
+      "status": "pending",
+      "priority": "medium",
+      "createdAt": "2025-12-09T09:44:19.453Z",
+      "updatedAt": "2025-12-09T09:44:19.453Z"
+    },
+    "2ad1e0f9-c6e2-4073-bb45-f4d52043de2c": {
+      "id": "2ad1e0f9-c6e2-4073-bb45-f4d52043de2c",
+      "projectId": "6d3d2b4d-8c65-4846-8b39-fd78d356bec5",
+      "title": "测试与验收",
+      "description": "编写核心函数单测、手测脚本执行与记录、旧版对照截图/结果、缺陷回归。",
+      "status": "pending",
+      "priority": "high",
+      "createdAt": "2025-12-09T09:44:27.239Z",
+      "updatedAt": "2025-12-09T09:44:27.239Z"
+    },
+    "a49186e9-c3fb-4e68-b021-55154d8a9c3b": {
+      "id": "a49186e9-c3fb-4e68-b021-55154d8a9c3b",
+      "projectId": "6d3d2b4d-8c65-4846-8b39-fd78d356bec5",
+      "title": "上线准备与主应用接入",
+      "description": "生成构建产物、环境变量说明、主应用 Wujie/iframe 挂载验证、遗留问题记录。",
+      "status": "pending",
+      "priority": "medium",
+      "createdAt": "2025-12-09T09:44:35.139Z",
+      "updatedAt": "2025-12-09T09:44:35.139Z"
+    }
+  }
+}

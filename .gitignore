@@ -8,6 +8,14 @@ auto-*.d.ts
 .idea
 .history
 
+# External MCP server artifacts
+external-servers/**/node_modules/
+external-servers/**/.venv/
+external-servers/**/.uv/
+external-servers/**/.ruff_cache/
+external-servers/**/.mypy_cache/
+external-servers/**/__pycache__/
+
 # Claude Code相关文件
 .claude/
 *.claude.*
